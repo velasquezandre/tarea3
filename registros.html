@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario de registro de inscripción</title>
+<link rel="stylesheet"type="text/css"href="styles.css"/>
+<link rel="stylesheet"type="text/css"href="styles.css"/> 
+</head>
+<body>
+<header>Instituto Profecional de Computación</header> <br>
+<a
+    href="index.html" class="greenlink">
+     Nosotros
+    </a>
+     &nbsp;
+    <a
+    href="aboutme.html" class="greenlink">
+     Instalaciones
+    </a>
+    &nbsp;
+    <a
+    href="contact.html" class="greenlink">
+      Contactos y dirección
+    </a>
+    &nbsp;
+     <a
+    href="vision.html" class="greenlink">
+      Visión y Misión
+    </a>
+    &nbsp;
+<a href="registros.html" class="greenlink">
+Registrate
+</a>
+&nbsp;
+
+<div class="group">
+<form action="registro.php" method="post">
+<h2><em>Formulario de registro de inscripción</em></h2>
+<label for="dpi">Ingresa tu numero de DPI<span><em>(obligatorio):</em></span></label>
+<input type="text" name="dpi" class="form-input" required/>
+<br>
+<label for="nombre">Ingresa nombre completo de futuro alumno<span><em>(obligatorio):</em></span></label>
+<input type="text" name="nombre" class="form-input" required/>
+<br>
+<label for="apellido">Ingresa nombre completo de Encargado<span><em>(obligatorio):</em></span></label>
+<input type="text" name="apellido" class="form-input" required/>
+<br>
+<label for="Celular">Ingresa Numero telefonico <span><em>(obligatorio):</em></span></label>
+<input type="text" name="Celular" class="form-input" required/>
+<br>
+<label for="correo">Ingresa Correo electronico<span><em>(obligatorio):</em></span></label>
+<input type="text" name="correo" class="form-input" required/>
+<br>
+<label for="Residencia">Grado al que requiere ingresar<span><em>(obligatorio):</em></span></label>
+<input type="text" name="Residencia" class="form-input" required/>
+<br>
+<br>
+<input classe="form-btn" name="submit" type="submit" value="Enviar datos"/>
+<input type="reset" value="Borrar" />
+</body>
+</html>
